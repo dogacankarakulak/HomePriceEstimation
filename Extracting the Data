@@ -2,8 +2,8 @@ from selenium import webdriver
 import time
 
 browser = webdriver.Chrome()
-browser.get("https://www.sahibinden.com/satilik-daire/istanbul-kadikoy?pagingOffset=")
-url = "https://www.sahibinden.com/satilik-daire/istanbul-kadikoy?pagingOffset="
+browser.get("siteurl")
+url = "siteurl"
 
 time.sleep(1)
 elements5=[]
